@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/toolbar_edit_text_search"
+        android:hint="Search Github Users"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:drawableStart="@android:drawable/ic_menu_search"/>
+
+</Toolbar>
